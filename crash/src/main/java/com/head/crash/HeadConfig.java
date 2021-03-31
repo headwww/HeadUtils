@@ -29,7 +29,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Modifier;
 
 
-public class CaocConfig implements Serializable {
+public class HeadConfig implements Serializable {
 
     @IntDef({BACKGROUND_MODE_CRASH, BACKGROUND_MODE_SHOW_CUSTOM, BACKGROUND_MODE_SILENT})
     @Retention(RetentionPolicy.SOURCE)
@@ -139,14 +139,14 @@ public class CaocConfig implements Serializable {
     }
 
     public static class Builder {
-        private CaocConfig config;
+        private HeadConfig config;
 
         @NonNull
         public static Builder create() {
             Builder builder = new Builder();
-            CaocConfig currentConfig = CustomActivityOnCrash.getConfig();
+            HeadConfig currentConfig = CustomActivityOnCrash.getConfig();
 
-            CaocConfig config = new CaocConfig();
+            HeadConfig config = new HeadConfig();
             config.backgroundMode = currentConfig.backgroundMode;
             config.enabled = currentConfig.enabled;
             config.showErrorDetails = currentConfig.showErrorDetails;
@@ -288,7 +288,7 @@ public class CaocConfig implements Serializable {
         }
 
         @NonNull
-        public CaocConfig get() {
+        public HeadConfig get() {
             return config;
         }
 

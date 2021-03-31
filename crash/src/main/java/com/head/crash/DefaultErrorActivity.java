@@ -42,7 +42,7 @@ public final class DefaultErrorActivity extends AppCompatActivity {
         //It is recommended that you follow this logic if implementing a custom error activity.
         Button restartButton = (Button) findViewById(R.id.customactivityoncrash_error_activity_restart_button);
 
-        final CaocConfig config = CustomActivityOnCrash.getConfigFromIntent(getIntent());
+        final HeadConfig config = CustomActivityOnCrash.getConfigFromIntent(getIntent());
 
         if (config.isShowRestartButton() && config.getRestartActivityClass()!=null) {
             restartButton.setText(R.string.customactivityoncrash_error_activity_restart_app);

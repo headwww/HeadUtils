@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
-public class CaocInitProvider extends ContentProvider {
+public class HeadInitProvider extends ContentProvider {
 
     public boolean onCreate() {
         CustomActivityOnCrash.install(getContext());

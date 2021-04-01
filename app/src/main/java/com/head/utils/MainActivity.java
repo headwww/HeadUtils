@@ -18,7 +18,8 @@ import com.head.permission.Permission;
 
 import java.util.List;
 
-import io.reactivex.functions.Consumer;
+import io.reactivex.rxjava3.functions.Consumer;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

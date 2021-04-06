@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     android:gravity="center">
 
     <ScrollView
@@ -39,6 +40,8 @@
             <Button
                 android:id="@+id/customactivityoncrash_error_activity_restart_button"
                 android:layout_width="wrap_content"
+                android:background="#2CB5FF"
+                android:textColor="#fff"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/customactivityoncrash_error_activity_close_app" />

@@ -9,6 +9,7 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -25,6 +26,8 @@ public final class DefaultErrorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
 
         //This is needed to avoid a crash if the developer has not specified
         //an app-level theme that extends Theme.AppCompat

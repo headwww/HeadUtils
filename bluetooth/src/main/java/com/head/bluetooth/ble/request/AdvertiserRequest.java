@@ -8,7 +8,6 @@ import android.bluetooth.le.AdvertiseSettings;
 import android.bluetooth.le.BluetoothLeAdvertiser;
 import android.os.Build;
 import android.os.Handler;
-import android.support.annotation.RequiresApi;
 
 import com.head.bluetooth.ble.BleLog;
 import com.head.bluetooth.ble.model.BleDevice;

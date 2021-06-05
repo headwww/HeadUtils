@@ -1,6 +1,8 @@
 package com.head.bluetooth.ble.queue;
 
-import android.support.annotation.NonNull;
+
+
+import androidx.annotation.NonNull;
 
 import com.head.bluetooth.ble.BleLog;
 import com.head.bluetooth.ble.model.BleDevice;

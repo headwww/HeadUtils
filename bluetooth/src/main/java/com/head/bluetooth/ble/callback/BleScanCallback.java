@@ -1,9 +1,10 @@
 package com.head.bluetooth.ble.callback;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 
-import com.head.bluetooth..ble.model.ScanRecord;
+import androidx.annotation.RequiresApi;
+
+import com.head.bluetooth.ble.model.ScanRecord;
 
 /**
  * Created by LiuLei on 2017/10/23.

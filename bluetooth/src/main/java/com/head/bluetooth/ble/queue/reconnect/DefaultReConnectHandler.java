@@ -1,7 +1,9 @@
 package com.head.bluetooth.ble.queue.reconnect;
 
-import android.support.annotation.RestrictTo;
 import android.text.TextUtils;
+
+import androidx.annotation.RestrictTo;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import com.head.bluetooth.ble.BleLog;

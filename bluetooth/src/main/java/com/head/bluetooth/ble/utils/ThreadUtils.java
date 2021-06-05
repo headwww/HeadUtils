@@ -3,7 +3,8 @@ package com.head.bluetooth.ble.utils;
 import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.RestrictTo;
+
+import androidx.annotation.RestrictTo;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.Executor;

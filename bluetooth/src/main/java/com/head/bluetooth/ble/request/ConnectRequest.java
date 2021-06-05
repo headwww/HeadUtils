@@ -1,8 +1,9 @@
 package com.head.bluetooth.ble.request;
 
 import android.bluetooth.BluetoothGatt;
-import android.support.annotation.RestrictTo;
 import android.text.TextUtils;
+
+import androidx.annotation.RestrictTo;
 
 import java.util.ArrayList;
 import java.util.Collections;

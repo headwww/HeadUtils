@@ -23,8 +23,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import android.support.annotation.IntRange;
-import android.support.annotation.RequiresApi;
+
+import androidx.annotation.IntRange;
 
 import java.util.Collection;
 import java.util.List;

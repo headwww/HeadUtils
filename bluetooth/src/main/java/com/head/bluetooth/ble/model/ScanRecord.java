@@ -5,10 +5,11 @@ package com.head.bluetooth.ble.model;
  */
 import android.os.Build;
 import android.os.ParcelUuid;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
 import android.util.ArrayMap;
 import android.util.SparseArray;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

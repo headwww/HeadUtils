@@ -1,2 +1,2 @@
-include ':app', ':crash', ':permission', ':json', ':components', ':toolkit', ':photoPicker'
+include ':app', ':crash', ':permission', ':json', ':components', ':toolkit', ':photoPicker', ':bluetooth'
 rootProject.name='HeadUtils'

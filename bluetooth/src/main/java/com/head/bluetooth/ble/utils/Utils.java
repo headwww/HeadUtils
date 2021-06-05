@@ -4,13 +4,11 @@ import android.app.ActivityManager;
 import android.content.Context;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 
-import java.util.HashMap;
-import java.util.List;
+import androidx.core.content.ContextCompat;
 
-import com.head.bluetooth.ble.model.BleDevice;
+import java.util.List;
 
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 

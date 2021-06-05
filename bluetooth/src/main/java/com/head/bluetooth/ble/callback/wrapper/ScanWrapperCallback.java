@@ -2,7 +2,8 @@ package com.head.bluetooth.ble.callback.wrapper;
 
 import android.bluetooth.BluetoothDevice;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
+
+import androidx.annotation.RequiresApi;
 
 import com.head.bluetooth.ble.model.ScanRecord;
 
